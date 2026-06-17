@@ -34,6 +34,6 @@ logging:
     org.springframework.ai: DEBUG
 
 server:
-  port: 8080
+  port: ${8080}
   servlet:
     context-path: /
